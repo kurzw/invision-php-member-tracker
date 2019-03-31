@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Lato%27');
+
+/* body etc. */
+body {
+ background-color: #1F182E ; 
+ font-family: 'Lato', sans-serif;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*HeadLines */
+
+.button-game-icon  {
+  width:48px!important;
+  height:48px!important;
+}
+
+.ggr-header {
+ font-size: 50px !important;
+ font-family: Lato;
+ color: #ffffff;
+ text-align: center;
+}
+
+.ggr-subheader {
+font-size: 25px !important;
+ text-transform: lowercase;
+ font-family: Lato;
+ color: #ffffff;
+ text-align: center;
+ height: 3px;
+}
+
+
+.btn.btn-default.selec {
+ background-color:#8001FE; 
+ color: #ffffff; 
+}
+
+.leadership-ls-head {
+ color: #FEED02;
+}
+
+.username-ls-head {
+ color: #ffffff;
+}
+
+.rank-ls-head {
+ color: #ffffff;
+}
+
+.rank {
+ color: #ffffff;
+}
+
+.ls-head-seperator {
+ border-color: #ddd;
+ height: 1px;
+}
+.ls-head-seperator.bottom {
+ margin-top: -12px; 
+}
+.selectors {
+    border-color: #878787;
+    border-style: ridge;
+    display: inline-block;
+    padding: 4px;
+    border-width: 1px;
+    border-radius: .25rem;
+}
+ #EFCC26;
+}
+
+.username-ls-head {
+ color: #ffffff;
+}
+
+.rank-ls-head {
+ color: #ffffff;
+}
+
+.rank {
+ color: #ffffff;
+}
+
+.ls-head-seperator {
+ border-color: #0057ff;
+ height: 1px;
+}
+.ls-head-seperator.bottom {
+ margin-top: -12px;
+}
+.selectors {
+    border-color: #878787;
+    border-style: ridge;
+    display: inline-block;
+    padding: 4px;
+    border-width: 1px;
+    border-radius: .25rem;
+}
+
+.name {
+	white-space: nowrap;
+	color: #ab63c9;
+	font-weight:normal;
+}
+
+a {
+	color:#bbcffc
+}
+
+.eu4_member_count {
+color: #ffffff;
+}
+
+.lol_member_count {
+color: #ffffff;
+}
+
+.eu4_member_count {
+color: #ffffff;
+}
+
+.casual_member_count {
+color: #ffffff;
+}
+
+.rl_member_count {
+color: #ffffff;
+}
+
+.apex_member_count {
+  color: #ffffff;
+}
+
+.memberpos {
+  white-space: nowrap;
+	color: #998999;
+	font-weight:bold;
+  height: 10px;
+  width: 30%;
+  text-align: right;
+  padding: 0.2rem !important;
+  font-size: 13px;
+  margin-left: 13px; !important
+}
+
+.memberpos-explaination {
+  white-space: nowrap;
+	color: #998999;
+	font-weight:bold;
+  height: 10%;
+  padding: 0.2rem !important;
+  font-size: 13px;
+}
+
+
+/****    Main    ****/
+
+.ToolTipBarWrapper li{
+    min-height: 50px;
+}
+
+.ToolTipBarWrapper .selected{
+    background-color: #8F8999 !important;
+}
+
+.ToolTipBarWrapper .noDisplay{
+    display: none !important;
+}
+
+.ToolTipBarWrapper{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.ToolTipBarWrapper .explainationtoggle{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    background-color: #b64240;
+    top: -20px !important;
+    left: calc(50% - 25px);
+    transition: top .75s ease-in-out;
+    -webkit-transition: top .75s ease-in-out;
+    -moz-transition: top .75s ease-in-out;
+    -o-transition: top .75s ease-in-out;
+    display:none
+}
+
+.ToolTipBarWrapper .toggle i{
+    color: #ddd;
+    cursor: pointer;
+}
+
+.ToolTipBarWrapper .ToolTipBar{
+    background-color: #333;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.ToolTipBarWrapper .catList{
+  display: -moz-box;
+  display: -moz-box;
+  display: -webkit-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0; /* close the gap in list items that are inline-block */
+}
+
+.ToolTipBarWrapper .catList li{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0 4px;
+    background-color: #29203B;
+    transition: all .3s ease-in-out;
+    height: 35px;
+}
+
+.ToolTipBarWrapper .catList img{
+    flex-grow:0;
+    flex-shrink:0;
+}
+
+.ToolTipBarWrapper .catList li i{
+    font-size: 23px;
+    color: #ddd;
+}
+
+.ToolTipBarWrapper .catList li img{
+    width: 20px;
+}
+
+.ToolTipBarWrapper .catList li span{
+    color: #ddd;
+    font-size: 20px;
+    font-family: Novecento;
+    padding-left: 10px;
+}
+
+.ToolTipBarWrapper .fa-sort-up{
+    vertical-align: -4px;
+}
+
+.ToolTipBarWrapper .closed{
+    top: -4px;
+}
+
+.ToolTipBarWrapper li:hover{cursor: pointer;}
+
+.ToolTipBarWrapper .catList .main:hover, .arrowBack:hover{background-color: #598F5B !important;}
+
+/****    Main Menu Styling    ****/
+
+.ToolTipBarWrapper .main{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+/****     Selection Styling    ****/
+
+.ToolTipBarWrapper .Positions:not(:last-child){
+    padding-right: 15px !important;
+}
+
+.ToolTipBarWrapper .Positions-container span{
+    vertical-align: -7px;
+}
+
+/****    Division Selection Styling    ****/
+
+.ToolTipBarWrapper .Icons{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+/****    Leadership Selection Styling    ****/
+
+.ToolTipBarWrapper .Leadership{
+    height: 50px !important;
+    padding: 0 10px !important;
+    width: auto !important;
+}
+
+.ToolTipBarWrapper .Leadership span{
+    font-size: 14px !important;
+}
+
+
+/**** Overlay Styling ****/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.4s;
+  -moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+
+
+ .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.icons-text
+{
+  color: white;
+
+}
